@@ -36,19 +36,11 @@ public class Lavrinc_CIT130_702B_inflationcalculator {
                 double perc1 = (inflationrate * .01), sum = (cost * perc1), cost2 = cost;
 
                 do {
-                    result = sum + cost; //formula according to response (eq1)
-                    sum = result * perc1;
-
                     double sum2 = cost2 * perc1; //formula according to  original assignment (eq2)
                     cost2 = sum2 + cost2;
                     count--;
                 } while (count > 0);
-
-                //output based on eq1
-                System.out.println("\nAt " + (percent.format(inflationrate * .01))
-                        + " inflation rate per year, the cost in " + projection
-                        + " year(s) will be " + (moneyFormatter.format(result)));
-                //output based on eq2
+                
                 System.out.println("At " + (percent.format(inflationrate * .01))
                         + " inflation rate per year, the cost in " + projection
                         + " year(s) will be " + (moneyFormatter.format(cost2)));
