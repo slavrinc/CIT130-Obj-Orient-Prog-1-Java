@@ -7,7 +7,6 @@ Output should be the future value of the amount.
 This assignment is designed to test your ability to write a simple loop.
 
 Example Output:
-
 --------------------Configuration: <Default>--------------------
 Enter the current cost of the item: 1000
 Enter the expected inflation rate per year
