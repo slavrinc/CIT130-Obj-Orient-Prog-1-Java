@@ -2,7 +2,6 @@
 Assignments from CIT130 - Object Oriented Programming - Java
 
 Assignment Prompt:
-Assignment 9:
 Write a generic class MyMathClass with at type parameter T where T is a numeric object 
 (Integer, Double or any class that extends java.lang.number) 
 
